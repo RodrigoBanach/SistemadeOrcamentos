@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/telacadastro"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:baselineAligned="false"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text=" SDO - Cadastro do Orçamento"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:text=" INFORMAÇÕES DO PRODUTO"
+        android:layout_weight="0.12" />
+
+    <EditText
+        android:id="@+id/editProduto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Produto"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:id="@+id/editDefeito1"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Defeito"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:layout_weight="0.04"/>
+
+    <EditText
+        android:id="@+id/editInformacao1"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Informações Adicionais"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:layout_weight="0.04"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:text=" VALOR DO ORÇAMENTO"
+        android:layout_weight="0.12" />
+
+    <EditText
+        android:id="@+id/editValor1"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="R$ 250,00"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:layout_weight="0.04"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.28"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnCadastrar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:text="Cadastrar" />
+
+        <Button
+            android:id="@+id/btnCancelar2"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:text="Cancelar" />
+
+    </LinearLayout>
+    </LinearLayout>
+
