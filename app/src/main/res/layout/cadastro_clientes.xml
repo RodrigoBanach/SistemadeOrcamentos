@@ -37,6 +37,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/modelo_edit"
         android:hint="Nome"
         android:inputType="textPersonName"
         android:textSize="20dp"
@@ -49,6 +52,9 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.04"
         android:ems="10"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/modelo_edit"
+        android:padding="5dp"
         android:hint="CPF"
         android:textSize="20dp"
         android:inputType="number" />
@@ -68,8 +74,11 @@
     <EditText
         android:id="@+id/editTelefone1"
         android:layout_width="wrap_content"
+        android:background="@drawable/modelo_edit"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
         android:hint="Telefone"
         android:textSize="20dp"
         android:inputType="phone"
@@ -78,8 +87,11 @@
     <EditText
         android:id="@+id/editEmail1"
         android:layout_width="wrap_content"
+        android:padding="5dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/modelo_edit"
         android:ems="10"
+        android:layout_marginTop="5dp"
         android:hint="E-Mail"
         android:textSize="20dp"
         android:inputType="textEmailAddress"
@@ -88,9 +100,12 @@
     <EditText
         android:id="@+id/editWhatsapp1"
         android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/modelo_edit"
         android:layout_height="wrap_content"
         android:layout_weight="0.03"
         android:ems="10"
+        android:layout_marginTop="5dp"
         android:hint="WhatsApp"
         android:textSize="20dp"
         android:inputType="number" />
@@ -98,8 +113,11 @@
     <EditText
         android:id="@+id/editRedesocial1"
         android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/modelo_edit"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_marginTop="5dp"
         android:hint="Rede Social"
         android:inputType="textPersonName"
         android:textSize="20dp"
@@ -117,6 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
+            android:background="@android:color/black"
             android:backgroundTint="@android:color/transparent"
             android:text="Cadastrar" />
 
@@ -126,6 +145,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
+            android:background="@android:color/black"
             android:backgroundTint="@android:color/transparent"
             android:text="Cancelar" />
 
